@@ -1,0 +1,4 @@
+aiogram==2.16
+apscheduler==3.9.1
+pydantic==1.9.2
+pytz==2021.3
