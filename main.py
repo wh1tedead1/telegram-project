@@ -14,6 +14,7 @@ import datetime
 from pydantic import NoneStr
 from pytz import utc
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
+#импортим библиотеки
 
 scheduler = AsyncIOScheduler(timezone=utc)
 scheduler.start()
