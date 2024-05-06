@@ -22,8 +22,9 @@ scheduler.start()
 bot = Bot(token="6769078740:AAE7TlYRzXl8PMO7WvMn84VszbZ_E15KKho", parse_mode='html')
 dp = Dispatcher(bot, storage=MemoryStorage())
 
-admin = 1814741745
-coder = 1814741745
+# Заместо PUSTO надо вписать свой айди
+admin = PUSTO
+coder = PUSTO
 
 logging.basicConfig(filename='main.log', filemode='a', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
